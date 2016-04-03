@@ -1,10 +1,12 @@
 var xhr = require('xhr')
-var example = require('./views/example.hbs')
+var nasa = require('./views/nasa.hbs')
 
-xhr.get('https://api.wheretheiss.at/v1/satellites', function(err, data) {
+xhr.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY', function(err, data) {
   if (err) console.log(err) // do something
 
-  console.log(data.body)
-  document.body.innerHTML = example({ name: "Space" });
+  // console.log(data.body)
+  var result = JSON.parse(data.body)
+  
+  document.body.innerHTML = nasa(result)
 })
 

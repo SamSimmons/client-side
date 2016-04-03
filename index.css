@@ -1,5 +1,17 @@
 body {
-  color: #fff;
-  background-color: #000;
+  color: gold;
+  background-color: steelblue;
 }
 
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.h1 {
+	text-align: center;
+}
+
+p {
+	background-color: rgba(0,0,0,.2);
+	padding: 5%;
