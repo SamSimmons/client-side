@@ -25,3 +25,14 @@ p {
 img {
 	width: 100%;
 }
+
+button {
+	background-color: gold;
+	color: steelblue;
+	border-radius: 5px;
+	border: 0 none;
+	padding: 10px;
+ 	text-transform: none;
+ 	text-align: center
+ 	font-size: 20px;
+}
