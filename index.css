@@ -1,5 +1,27 @@
 body {
-  color: tomato;
-  background-color: bisque;
+  color: gold;
+  background-color: steelblue;
 }
 
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.h1 {
+	text-align: center;
+}
+
+p {
+	background-color: rgba(255,255,255,.1);
+	padding: 5%;
+}
+
+.img-wrapper{
+	width: 60vw;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+}
